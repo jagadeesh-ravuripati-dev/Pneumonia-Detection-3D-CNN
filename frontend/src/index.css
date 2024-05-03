@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .bg-transp-lung {
+    background: rgba(0, 0, 0, 0.5)url('../src/assets/transp_lung.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+  }
+
+  .bg-lungs {
+    background: rgba(0, 0, 0, 0.8)url('../src/assets/lungs.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-blend-mode: darken;
+  }
+}
